@@ -1,9 +1,8 @@
-pub mod stack;
-pub mod memory;
+mod execution_context;
 
 use ethnum::u256;
-use stack::Stack;
-use memory::Memory;
+use execution_context::stack::Stack;
+use execution_context::memory::Memory;
 
 fn main() {
 
